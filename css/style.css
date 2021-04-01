@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+#header, #footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    color: orange;
+    background-image: url("../images/honor_clubs.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 10%;
+}
+h1{
+    font-size: 300%;
+    background-color: black;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.player-div{
+    display: flex;
+    flex-direction: row;
+    height: 37%;
+    width: 100%;
+    background-color: green;
+    border-bottom: 3px dotted black;
+}
+#control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 24%;
+    background-color: blue;
+}
+.control-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.btn{
+    padding-top: 5%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#deal{
+    background-color: aqua;
+}
+#hit{
+    background-color: red;
+}
+#stand{
+    background-color: whitesmoke;
+}
+#result p{
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 22%;
+}
+.card-img{
+    margin-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 90%;
+    border-radius: 10%;
+}
+#footer{
+    height: 5%;
+    color: black;
+}
